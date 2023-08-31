@@ -1,0 +1,22 @@
+{
+  "name": "sfc/test",
+  "description": "这是翻译的包",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Sfc\\Test\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "twitf",
+      "email": "qiangzaiying123@outlook.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "minimum-stability": "stable"
+}
